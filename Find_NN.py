@@ -12,14 +12,6 @@ def check_minmax(min, max):
     else:
         return min, max
     
-def check_parity(parity):
-    if parity < 2:
-        print('Parity must be Greater than 1!')
-        parity = int(input('Enter the Valid Parity: '))
-        return check_parity(parity)
-    else:
-        return parity
-    
 def check_expo(expo):
     if expo < 0:
         print('Exponent must be a Whole Number!')
@@ -35,17 +27,25 @@ def check_term(term):
         return check_term(term)
     else:
         return term
-    
+
+def check_parity(parity):
+    if parity < 2:
+        print('Parity must be Greater than 1!')
+        parity = int(input('Enter the Valid Parity: '))
+        return check_parity(parity)
+    else:
+        return parity
+
 # Taking the Features of Navam's Numbers as inputs from the user
 min = int(input('Enter the Minimum Number: '))
 max = int(input('Enter the Maximum Number: '))
 min, max = check_minmax(min, max)
-parity = int(input('Enter the Parity: '))
-parity = check_parity(parity)
 expo = int(input('Enter the Exponent: '))
 expo = check_expo(expo)
 term = int(input('Enter the Number of Terms: '))
 term = check_term(term)
+parity = int(input('Enter the Parity: '))
+parity = check_parity(parity)
 
 # Creating all the Possible Combinations with the numbers in the range of Contributors
 numbers_list = []
