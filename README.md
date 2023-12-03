@@ -5,7 +5,7 @@
 
 To understand the concept better, consider the Ramanujan's Number as an example:
 
-`1729 = 1^3 + 12^3 = 9^3 + 10^3`
+$1729 = (1)^3 + (12)^3 = (9)^3 + (10)^3$
 
 The Significance of the Number 1729 is that it is the smallest number which can be expressed as a sum of 2 cubes in 2 different ways. Hence, 1729 (Ramanujan's Number) is also a Navam's Number.
 
