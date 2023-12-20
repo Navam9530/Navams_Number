@@ -29,8 +29,8 @@ The Significance of the Number 1729 is that it is the smallest number which can 
 * Remember, the Parity must be greater than 1!
 
 ## Note
-* The code in Find_NN.py finds the Navam's Numbers in a range [minimum, maximum] where:
-    * Minimum is the Lowest Number and Maximum is the Highest Number to be the Contributors.
-    * Both Minimum and Maximum are inclusive in the Range.
+* The code in Find_NN.py finds the Navam's Numbers in a range $[minimum, maximum]$ where:
+    * $minimum$ is the Lowest Number and $maximum$ is the Highest Number to be the Contributors.
+    * Both $minimum$ and $maximum$ are inclusive in the Range.
 
 * Make sure to install the Pandas library before executing the file!
