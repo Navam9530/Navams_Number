@@ -1,4 +1,9 @@
-# Importing the Necessary Packages
+# Downloading the Required Packages
+import subprocess
+import sys
+subprocess.check_call([sys.executable, "-m", "pip", "install", "pandas"])
+
+# Importing the Necessary Libraries
 import pandas as pd
 from itertools import combinations
 
