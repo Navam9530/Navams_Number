@@ -44,7 +44,7 @@ def check_parity(parity):
 if platform.system() == 'Windows':
     os.system('cls')
 else:
-    os.system('clear)
+    os.system('clear')
 min = int(input('\n\n\n\nEnter the Minimum Number: '))
 max = int(input('Enter the Maximum Number: '))
 min, max = check_minmax(min, max)
