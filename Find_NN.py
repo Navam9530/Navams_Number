@@ -1,5 +1,5 @@
 # Downloading the Required Packages
-import os
+import os, platform
 os.system('pip install pandas')
 
 # Importing the Necessary Libraries
@@ -41,7 +41,10 @@ def check_parity(parity):
         return parity
 
 # Taking the Features of Navam's Numbers as inputs from the user
-os.system('cls')
+if platform.system() == 'Windows':
+    os.system('cls')
+else:
+    os.system('clear)
 min = int(input('\n\n\n\nEnter the Minimum Number: '))
 max = int(input('Enter the Maximum Number: '))
 min, max = check_minmax(min, max)
