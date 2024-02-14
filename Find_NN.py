@@ -1,7 +1,6 @@
 # Downloading the Required Packages
-import subprocess
-import sys
-subprocess.check_call([sys.executable, "-m", "pip", "install", "pandas"])
+import os
+os.system('pip install pandas')
 
 # Importing the Necessary Libraries
 import pandas as pd
@@ -42,7 +41,8 @@ def check_parity(parity):
         return parity
 
 # Taking the Features of Navam's Numbers as inputs from the user
-min = int(input('Enter the Minimum Number: '))
+os.system('cls')
+min = int(input('\n\n\n\nEnter the Minimum Number: '))
 max = int(input('Enter the Maximum Number: '))
 min, max = check_minmax(min, max)
 expo = int(input('Enter the Exponent: '))
