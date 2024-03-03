@@ -30,6 +30,6 @@ The Significance of the Number 1729 is that it is the smallest number which can 
 * Remember, the Parity must be greater than 1!
 
 ## Note
-The code in _main.py_ finds the Navam's Numbers in a range $[minimum, maximum]$ where:
+The code in [main.py](main.py) finds the Navam's Numbers in a range $[minimum, maximum]$ where:
 * $minimum$ is the Lowest Number and $maximum$ is the Highest Number to be the Contributors.
 * Both $minimum$ and $maximum$ are inclusive in the Range.
